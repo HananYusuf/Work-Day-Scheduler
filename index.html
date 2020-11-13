@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <div class="container">
+      <div class="row time-block">
+        <p class="description hour col-1"> 9AM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1" id="9">save</button>
+      </div>
+
+      <div class="row time-block">
+        <p class="description hour col-1"> 10AM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1"  id="10">save</button>
+      </div>
+
+      <div class="row time-block">
+        <p class="description hour col-1"> 11AM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1"  id="11">save</button>
+      </div>
+      
+      <div class="row time-block">
+        <p class="description hour col-1"> 12PM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1" id="12">save</button>
+      </div>
+
+      <div class="row time-block">
+        <p class="description hour col-1"> 1PM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1"  id="13">save</button>
+      </div>
+
+      <div class="row time-block">
+        <p class="description hour col-1"> 2PM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1"  id="14">save</button>
+      </div>
+
+      <div class="row time-block">
+        <p class="description hour col-1"> 3PM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1"  id="15">save</button>
+      </div>
+
+      <div class="row time-block">
+        <p class="description hour col-1"> 4PM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1" id="16">save</button>
+      </div>
+
+      <div class="row time-block">
+        <p class="description hour col-1"> 5PM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1" id="17">save</button>
+      </div>
+
+      <div class="row time-block">
+        <p class="description hour col-1"> 6PM</p>
+        <textarea class="col-10 past"></textarea>
+        <button class="saveBtn col-1" id="18">save</button>
+      </div>
+      
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
